@@ -1,0 +1,23 @@
+.tab-wrapper  {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 700px;
+  height: 500px;
+  margin-left: 50px;
+  .tab-header {
+    margin-bottom: 30px;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .tabs{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    .tab-body-item {
+      height: 90%;
+    }
+  }
+}
+

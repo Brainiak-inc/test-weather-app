@@ -1,0 +1,35 @@
+<div class="tab-wrapper">
+  <div class="tab-header">Выберите город</div>
+  <app-tabs class="tabs">
+    <app-tab-item>
+      <app-tab-label>Москва</app-tab-label>
+      <app-tab-body>
+        <app-tab-body-item
+          class="tab-body-item"
+          [currentTemp]="currentTemp"
+          [high]="this.high"
+          [low]="this.low"
+          [windSpeed]="windSpeed"
+        ></app-tab-body-item>
+      </app-tab-body>
+    </app-tab-item>
+    <app-tab-item >
+      <app-tab-label>Санкт-Петербург</app-tab-label>
+      <app-tab-body>
+        <app-tab-body-item class="tab-body-item"></app-tab-body-item>
+      </app-tab-body>
+    </app-tab-item>
+    <app-tab-item>
+      <app-tab-label>Екатеринбург</app-tab-label>
+      <app-tab-body>
+        <app-tab-body-item class="tab-body-item"></app-tab-body-item>
+      </app-tab-body>
+    </app-tab-item>
+    <app-tab-item>
+      <app-tab-label>Владивосток</app-tab-label>
+      <app-tab-body>
+        <app-tab-body-item class="tab-body-item"></app-tab-body-item>
+      </app-tab-body>
+    </app-tab-item>
+  </app-tabs>
+</div>
