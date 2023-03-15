@@ -1,27 +1,19 @@
-# WebApp
+## Тестовое задание.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.3.
+Тестовое задание.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Необходимо написать одностраничное SPA приложение с информацией о погоде на Angular 10.
 
-## Code scaffolding
+Города по умолчанию: Москва, Санкт-Петербург, Екатеринбург, Владивосток.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Для получения данных о погоде использовать openweathermap.org. Все надписи и города должны быть на русском языке.
 
-## Build
+## Приложение должно работать по следующему сценарию:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Пользователь щёлкает на кнопку города. Справа без перезагрузки страницы отображается информация о погоде: текущая температура, скорость ветра.
 
-## Running unit tests
+## To run this application
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Install node_modules using 'npm install' command in root folder of the project,
+2. Use 'npm run start' command to run the project.
