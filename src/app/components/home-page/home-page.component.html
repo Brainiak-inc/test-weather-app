@@ -1,0 +1,19 @@
+<div class="tab-wrapper">
+  <div class="tab-header">Выберите город</div>
+  <app-tabs class="tabs">
+    <app-tab-item *ngFor="let item of cities" (click)="getCityName(item.name)">
+      <app-tab-label>
+        {{item.name}}
+      </app-tab-label>
+      <app-tab-body>
+                <app-tab-body-item
+                  class="tab-body-item"
+                  [currentTemp]="item.currentTemp"
+                  [high]="item.high"
+                  [low]="item.low"
+                  [windSpeed]="item.windSpeed"
+                ></app-tab-body-item>
+              </app-tab-body>
+    </app-tab-item>
+  </app-tabs>
+</div>
